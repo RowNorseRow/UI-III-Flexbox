@@ -1,0 +1,21 @@
+@media screen and (max-width: 800px) {
+
+    .DigiDesign, .UXUI, .DigiMarket, .WebDev, .iOSDev, .AndroidDev {
+        width: 100%;
+        text-align: center;
+        background-color: lightskyblue;
+    }
+
+    .navigation li{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 800px) {
+
+    .hamburglar {
+        display: none;
+    }
+
+}
