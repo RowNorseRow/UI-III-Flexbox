@@ -10,6 +10,7 @@ body {
     position: sticky;
     top: 0;
     background-color: white;
+    margin: auto;
 }
 
 .navItems {
@@ -17,6 +18,10 @@ body {
     justify-content: space-between;
     list-style: none;
     align-items: center;            
+}
+
+ul {
+    padding-inline-start: 0px;
 }
 
 .navItems li:hover {
@@ -85,4 +90,8 @@ footer {
 
 .factsImg > img {
     max-width: 100%;
+}
+
+.hamburglar {
+    width: 30px;
 }
